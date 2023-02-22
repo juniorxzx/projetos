@@ -1,0 +1,20 @@
+:root{
+  --bg-color: #00000075;
+  --text-color: #FFF;
+  --toggle-color: #3af73a;
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  color: #FFF;
+}
+
+html, body{
+  background: var(--bg-color);
+  color: var(--text-color);
+width: 100%;
+  height: 100vh;
+}
